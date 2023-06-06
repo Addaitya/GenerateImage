@@ -1,0 +1,57 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    overflow: hidden;
+    align-content: center;
+    background-color: lightgray;
+    border-bottom: black 3px solid;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0.2rem 0 0 2rem;
+}
+
+.navigation-links{
+
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+}
+
+.navigation-links li{
+    float: left;
+    margin-right: 3rem;
+}
+
+#images{
+
+    margin: 5em 8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 1.5em;
+}
+
+.loading{
+    width: 100%;
+    background-color: rgb(165, 165, 165);
+    border-radius: 0.4em;
+    height: 35vh;
+}
+
+.image{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 35vh;
+    border-radius: 0.4em;
+    border: 2px gray solid;
+}
