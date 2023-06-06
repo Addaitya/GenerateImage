@@ -74,11 +74,17 @@
 
 @media (min-width: 821px) {
     
+    .loading{
+        height: 35vh;
+    }
+    
     #images{
 
-        margin: 5em 8em;
+        margin: 6em 8em;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 2em;
         row-gap: 1.5em;
-}
+    }
+    
+    
 }
